@@ -27,7 +27,7 @@ def main():
         elif choix == "h":
             my_help()
         elif choix == "ss":
-            SimpleScraper.config()
+            SimpleScraper.menu()
         else:
             print("Choix invalide\n")
 
