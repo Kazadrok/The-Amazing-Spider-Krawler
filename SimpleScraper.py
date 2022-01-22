@@ -45,8 +45,17 @@ def menu():
             if choix == "a":
                 if t != "":
                     a = str(input("a : "))
+            if choix == "l":
+                if t != "":
+                    pass
+            if choix == "r":
+                t = ""
+                a = ""
+                v = ""
 
-
+            t = ""
+            a = ""
+            
     else:
         print("Invalid URL")
         input()
