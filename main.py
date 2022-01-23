@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-import SimpleScraper
+import SimpleScraper_menu as SScrap_menu
+
 import os
 
 def menu():
@@ -27,9 +28,9 @@ def main():
         elif choix == "h":
             my_help()
         elif choix == "ss":
-            SimpleScraper.menu()
+            SScrap_menu.run()
         else:
-            print("Choix invalide\n")
+            print("Invalid choice\n")
 
 
 main()
